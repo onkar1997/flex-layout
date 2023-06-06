@@ -1,0 +1,46 @@
+body {
+	background: lightblue;
+	color: white;
+	font-family: sans-serif;
+	padding: 1%;
+}
+
+header {
+	background: deepskyblue;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.section {
+	display: flex;
+	justify-content: space-between;
+}
+
+aside {
+	background: green;
+	padding: 10px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: 67vh;
+	width: 35vw;
+	text-align: center;
+}
+
+aside > h2 {
+	margin-top: 30vh;
+}
+
+article {
+	background: orange;
+	text-align: center;
+	padding: 10px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 58%;
+	height: 67vh;
+}
+
+article .images {
+	margin-top: 30%;
+}
